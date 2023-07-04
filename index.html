@@ -1,15 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">    
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+
+
+    <style>
+        .square-container {
+            aspect-ratio: 1/1;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: start;
+            gap: 1rem;
+        }
+
+        .square-cell {
+            aspect-ratio: 1/1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: calc(100% / 7);
+        }
+    </style>
 </head>
+
 <body>
-    
+
+
+
     <main>
-        .
+        <div class="container pb-5">
+            <h1 class="my-5 text-center">FizzBuzzDOM</h1>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="square-container">
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
@@ -22,4 +54,5 @@
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
